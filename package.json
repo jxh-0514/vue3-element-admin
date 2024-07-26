@@ -4,6 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "npm_dev": "npm run dev",
     "dev": "vite",
     "build": "vue-tsc --noEmit & vite build",
     "preview": "vite preview",
@@ -54,6 +55,8 @@
     "echarts": "^5.5.0",
     "element-plus": "^2.7.5",
     "exceljs": "^4.4.0",
+    "leaflet": "^1.9.4",
+    "leaflet-trackplayer": "^2.0.2",
     "lodash-es": "^4.17.21",
     "net": "^1.0.2",
     "nprogress": "^0.2.0",

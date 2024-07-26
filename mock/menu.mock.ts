@@ -406,6 +406,18 @@ export default defineMock([
                 params: null,
               },
             },
+            {
+              path: "lMap",
+              component: "demo/lMap",
+              name: "LMap/:id",
+              meta: {
+                title: "lMap",
+                icon: "",
+                hidden: false,
+                alwaysShow: false,
+                params: null,
+              },
+            },
           ],
         },
       ],
